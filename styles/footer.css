@@ -1,0 +1,162 @@
+.text-primary {
+  color: #448;
+}
+
+.text-secondary {
+  color: #c36;
+}
+
+.text-info {
+  color: #36c;
+}
+
+.text-light, #footer #contact {
+  color: #eee;
+}
+
+.text-dark {
+  color: #333;
+}
+
+.text-danger {
+  color: #c33;
+}
+
+.text-warning {
+  color: #da3;
+}
+
+.text-success {
+  color: #3c6;
+}
+
+.bg-primary, #footer #contact {
+  background-color: #448;
+}
+
+.bg-secondary {
+  background-color: #c36;
+}
+
+.bg-info {
+  background-color: #36c;
+}
+
+.bg-light {
+  background-color: #eee;
+}
+
+.bg-dark {
+  background-color: #333;
+}
+
+.bg-danger {
+  background-color: #c33;
+}
+
+.bg-warning {
+  background-color: #da3;
+}
+
+.bg-success {
+  background-color: #3c6;
+}
+
+.border-primary {
+  border-color: #448;
+}
+
+.border-secondary {
+  border-color: #c36;
+}
+
+.border-info {
+  border-color: #36c;
+}
+
+.border-light {
+  border-color: #eee;
+}
+
+.border-dark, #footer #contact input,
+#footer #contact textarea {
+  border-color: #333;
+}
+
+.border-danger, #footer #contact input:not(:placeholder-shown):invalid,
+#footer #contact textarea:not(:placeholder-shown):invalid {
+  border-color: #c33;
+}
+
+.border-warning {
+  border-color: #da3;
+}
+
+.border-success, #footer #contact input:valid,
+#footer #contact textarea:valid {
+  border-color: #3c6;
+}
+
+.front, #footer .map iframe.active + .btn, #footer .map iframe.active {
+  position: fixed;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+#footer {
+  margin: 0;
+  border: 0;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(#4485, #c365);
+}
+#footer .map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+#footer .map .btn {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 0;
+  transform: translate(-150%, 50%);
+}
+#footer .social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#footer .social a {
+  margin: 0.25rem;
+  border: 0;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.5s;
+}
+#footer .social a:hover {
+  transform: rotate(360deg) translateY(-0.5rem);
+  background-color: #eee;
+}
+#footer #contact {
+  margin: 1rem auto;
+  border: 0;
+  padding: 1rem;
+  display: grid;
+  max-width: 540px;
+}
+#footer #contact input,
+#footer #contact textarea {
+  margin: 0;
+  border: 0.1rem solid;
+  padding: 0.5rem;
+  outline: none;
+  resize: none;
+}
+
+/*# sourceMappingURL=footer.css.map */
